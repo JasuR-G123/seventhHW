@@ -1,0 +1,83 @@
+.express {
+    background: #EBEBEB;
+    padding: 45px 0;
+}
+
+.express__title {
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+
+.express_display {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.express__cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.express_border {
+    border: 2px #000000 solid;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.express__cards-card-tops {
+    background: url(../images/Tops.png);
+    width: 300px;
+    height: 500px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.express__cards-card-pants {
+    background: url(../images/pants.png);
+    width: 300px;
+    height: 500px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.express__cards-card-bags {
+    background: url(../images/bags.png);
+    width: 300px;
+    height: 500px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.express__cards-card-title {
+    color: #fff;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+
+}
+
+.express__cards-card-bags:hover {
+    border: 3px solid #322E41;
+}
+
+.express__cards-card-pants:hover {
+    border: 3px solid #322E41;
+}
+
+.express__cards-card-tops:hover{
+    border: 3px solid #322E41;
+  
+}
+

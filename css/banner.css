@@ -1,0 +1,65 @@
+/* BANNER TOP */
+.banner {
+    background: url(../images/banner.png) center/cover no-repeat;
+    height: 565px;
+}
+
+
+.banner__desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 15px;
+}
+
+.banner__desc-name {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    color: #fff;
+}
+
+.banner__desc-text {
+    font-family: 'Roboto-Regular';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #fff;
+}
+
+.banner__desc-text span {
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #fff;
+}
+
+/* BANNER TOP END */
+
+/* BANNER BOTTOM */
+
+
+.bannerbottom {
+    background: url(../images/bannerbottom.png) center/cover no-repeat;
+    height: 557px;
+}
+
+.bannerbottom__title {
+    font-family: 'Roboto-Bold';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #fff;
+    text-align: center;
+    background: #BABABA80;
+    width: 400px;
+    padding: 20px 100px;
+
+}
+
+
+
+/* BANNER BOTTOM END */
